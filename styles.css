@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -100px -350px, 1000px 525px;
+}
+
+.mainbox {
+    border: none ;
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 1em;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Kumbh Sans';
+
+}
+
+#card-image {
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+
+}
+
+.name {
+    text-align: center;
+    z-index: 9;
+    position: relative;
+    bottom: 12%;
+    font-weight: 700;
+}
+
+.location {
+    text-align: center;
+    position: relative;
+    bottom: 11%;
+    color: grey;
+    
+}
+
+.stats {
+    margin-top: 6em;
+    padding: 1.5em 1em;
+    position: relative;
+    bottom: 27%;  
+    border-top: 1px solid grey;
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+  }
+
+li {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+    line-height: 25px; 
+    color: grey;
+}
+
+.headshot {
+    border-radius: 50%;
+    border: 3px solid white;
+    z-index: 10;
+    position: relative;
+    left:37%;
+    bottom: 12%;
+}
+
+hr {
+    position: relative;
+    bottom: 7%;
+    background-color: grey;
+}
+
+.attribution {
+    position: absolute;
+    top: 80%;
+    left: 43%;
+}
+
+.numbers {
+    font-weight: 700;
+    color: black;
+}
+
+#age {
+    color: grey;
+}
